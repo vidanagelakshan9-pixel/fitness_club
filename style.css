@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ---------- HOME PAGE ---------- */
+.home {
+    height: 100vh;
+    background: url("images/home.jpg") no-repeat center/cover;
+}
+
+/* Navbar */
+nav {
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Sidebar */
+aside {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 200px;
+    height: calc(100vh - 60px);
+    background: rgba(0,0,0,0.6);
+    padding-top: 20px;
+}
+
+aside a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* Content */
+.content {
+    margin-left: 220px;
+    margin-top: 100px;
+    color: white;
+}
+
+/* ---------- LOGIN & REGISTER ---------- */
+.login {
+    background: url("images/login.jpg") no-repeat center/cover;
+    height: 100vh;
+}
+
+.register {
+    background: url("images/register.jpg") no-repeat center/cover;
+    height: 100vh;
+}
+
+.form-box {
+    width: 300px;
+    background: rgba(255,255,255,0.9);
+    padding: 25px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.form-box button {
+    width: 100%;
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
