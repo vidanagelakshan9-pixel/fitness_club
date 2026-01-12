@@ -62,6 +62,17 @@ aside a {
     height: 100vh;
 }
 
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
 .register {
     background: url("images/register.jpg") no-repeat center/cover;
     height: 100vh;
@@ -69,7 +80,7 @@ aside a {
 
 .form-box {
     width: 300px;
-    background: rgba(255,255,255,0.9);
+    background:#27A3F5 ;
     padding: 25px;
     border-radius: 10px;
     position: absolute;
